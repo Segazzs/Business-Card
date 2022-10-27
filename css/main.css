@@ -1,0 +1,310 @@
+@import url(bootstrap-reboot.css);
+
+.none {
+    display: none;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1D2F38;
+}
+
+/* LINK */
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+
+header {
+    margin-bottom: 80px;
+}
+
+.shadow {
+    margin-bottom: 60px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    margin-right: 30px;
+}
+
+.nav-link {
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1D2F38;
+}
+
+.img-nav-bar {
+    width: 19px;
+    height: 17px;
+    margin-bottom: 3px;
+    margin-right: 8px;
+}
+
+.navbar-nav {
+    gap: 30px;
+}
+
+.sign_up_img {
+    width: 32px;
+    height: 32px;
+}
+
+/* HEADER MAIN */
+
+.header__main {
+    
+}
+
+.header__main-bgc {
+    background-color: #E3EBF1;
+    border-radius: 10px;
+}
+
+.main_content {
+    padding: 50px;
+}
+
+.header__main-link {
+    font-size: 18px;
+    color: #10843F;
+    text-decoration: none;
+    margin: 14px auto 8px 0;
+}
+
+.header__main-link:hover {
+    color: #10843F;
+}
+
+.ease-to-use {
+    font-size: 47px;
+    line-height: 1.1;
+    max-width: 484px;
+    margin-bottom: 22px;
+}
+
+.header__main-small-text {
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 474px;
+    margin-bottom: 25px;
+}
+
+.my-btn {
+    padding: 15px;
+    font-size: 15px;
+    background-color: #17A550;
+    line-height: 1.5;
+}
+
+/* MAIN */
+
+/* BLOG */
+
+.blog {
+    margin-bottom: 100px;
+}
+
+.blog_name {
+    font-size: 38px;
+    margin-bottom: 33px;
+    margin-bottom: 13px;
+}
+
+.blog-blocks {
+    margin-bottom: 75px;
+}
+
+.img-fluid {
+    object-fit: contain;
+}
+
+.grass-text {
+    font-size: 15px;
+    line-height: 1.3;
+    max-width: 520px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
+
+/* PRICE LIST */
+
+.price-list {
+    margin-bottom: 100px;
+}
+
+.price-list-bg {
+    background-image: url(../img/list-btn-bgc.svg);
+    border-radius: 10px;
+}
+
+/* PRODUCT */
+
+.product {
+    margin-bottom: 100px;
+}
+
+.product-main-text {
+    font-size: 15px;
+    line-height: 1.3;
+    max-width: 290px;
+}
+
+.product-name {
+    position: absolute;
+    left: 27px;
+    top: 15px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+}
+
+/* SUBMIT */
+
+.submit {
+    margin-bottom: 100px;
+}
+
+.submit-bg {
+    background-image: url(../img/submit-bg.svg);
+    border-radius: 10px;
+}
+
+.mail_icon {
+    font-size: 30px;
+    line-height: 1.16;
+}
+
+.mail-mr {
+    margin-right: 10px;
+}
+
+.submit-main-text {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 24px;
+}
+
+.form-control {
+    padding: 15px;
+    max-width: 480px;
+}
+
+.yellow-btn {
+    padding: 15px 20px;
+    background-color: #FFC728;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mail-btn-dicription {
+    color: #000000;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.mb-line {
+    margin-bottom: 59px;
+}
+
+.footer-text {
+    font-size: 18px;
+    line-height: 1.25;
+    max-width: 340px;
+}
+
+.footer-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-control {
+    border-radius: 5px 0 0 5px;
+}
+
+.btn {
+    border-radius: 0px 5px 5px 0;
+}
+
+.btn-outline-success {
+    border: none;
+    background-color: #768F9C;
+    color: white;
+}
+
+.list-group-item {
+    padding: 4px 0;
+    border: none;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #536D7A;
+    margin-bottom: 20px;
+}
+
+.line-2 {
+    width: 100%;
+    height: 1px;
+    background: #536D7A;
+    margin-bottom: 20px;
+}
+
+.last-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+}
