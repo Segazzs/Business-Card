@@ -47,9 +47,7 @@ header {
     margin-bottom: 60px;
 }
 
-.container-fluid {
-    padding: 0;
-}
+
 
 .navbar {
     padding: 15px 0;
@@ -61,6 +59,7 @@ header {
 
 .nav-link {
     font-size: 14px;
+    padding: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -85,9 +84,6 @@ header {
 
 /* HEADER MAIN */
 
-.header__main {
-    
-}
 
 .header__main-bgc {
     background-color: #E3EBF1;
@@ -96,6 +92,10 @@ header {
 
 .main_content {
     padding: 50px;
+}
+
+.img-fluid {
+    width: 100%;
 }
 
 .header__main-link {
@@ -262,11 +262,11 @@ header {
     gap: 20px;
 }
 
-.form-control {
+.form-control-footer {
     border-radius: 5px 0 0 5px;
 }
 
-.btn {
+.br-btn-footer {
     border-radius: 0px 5px 5px 0;
 }
 
@@ -307,4 +307,13 @@ header {
     display: flex;
     gap: 10px;
     padding-left: 0;
+}
+
+.block-test {
+    height: 100px;
+    border: 1px solid black;
+}
+
+.tools {
+    align-items: center;
 }
